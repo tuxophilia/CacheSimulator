@@ -1,8 +1,8 @@
 # CacheSimulator
 ***********************************************************************************
-				CACHE SIMULATOR v1
+CACHE SIMULATOR v1
 ************************************************************************************
-				Documentation:
+Documentation:
 ************************************************************************************
 The cache simulator version v1.1 Single bank single file input. and
 The cache simulator version v1.2. Multi bank Multi file input. output printing on the screen
@@ -25,7 +25,7 @@ miss_log.txt and output_bank_*.txt files will be created automatically
 
 
 **************************************************************************************
-					INPUT
+INPUT
 **************************************************************************************
 
 Use the input.txt as input file. Output will be printing on the screen. 
@@ -33,7 +33,7 @@ Use the input.txt as input file. Output will be printing on the screen.
 
 
 **************************************************************************************
-			Auxilary Function for preprocessing:
+Auxilary Function for preprocessing:
 **************************************************************************************
 
 1. get_no_of_bits():This function returning the no of bits used to map input decimal value.
@@ -50,7 +50,7 @@ Use the input.txt as input file. Output will be printing on the screen.
 
 
 ***************************************************************************************
-			Details regarding different class methods 
+Details regarding different class methods 
 ***************************************************************************************
 
 Class cacheline: Methods: this class containing only one constructor which creates blank single cacheline including initialising the data e.g. Valid bit, dirty bit, etc.
@@ -89,14 +89,14 @@ Class l1_cache: Create multibanks of l1 cache having single constructor which cr
 
 
 ***************************************************************************************
-			Details regarding structures used
+Details regarding structures used
 ***************************************************************************************
 structure arg_struct used for sending data into the threads cb which cache we want to access, filename from which the address will be fetched filename,thread_id and thread_num explicitly 
 
 
 
 ***************************************************************************************
-			Details regarding make_thread
+Details regarding make_thread
 *************************************************************************************** 
 This is the function which will be called into the thread and multiple copies will be created. All the detauils of the thread extracted insode this corresponding file reading will be done and according the address and operation the details passed to map function. 
 
