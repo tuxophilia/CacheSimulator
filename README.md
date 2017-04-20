@@ -24,17 +24,17 @@ NOTE: input files will be according to the number of banks required can be chang
 miss_log.txt and output_bank_*.txt files will be created automatically
 
 
-**************************************************************************************
+------
 INPUT
-**************************************************************************************
+------
 
 Use the input.txt as input file. Output will be printing on the screen. 
 
 
 
-**************************************************************************************
+-----------------------------------
 Auxilary Function for preprocessing:
-**************************************************************************************
+-----------------------------------
 
 1. get_no_of_bits():This function returning the no of bits used to map input decimal value.
 
@@ -48,10 +48,9 @@ Auxilary Function for preprocessing:
 5. getSetIndex():returns the set index for according to input parameter of binary address and returns a decimal value of set index.
 
 
-
-***************************************************************************************
+-----------------------------------------
 Details regarding different class methods 
-***************************************************************************************
+-----------------------------------------
 
 Class cacheline: Methods: this class containing only one constructor which creates blank single cacheline including initialising the data e.g. Valid bit, dirty bit, etc.
 
@@ -88,15 +87,15 @@ Function of the class cache_bank:
 Class l1_cache: Create multibanks of l1 cache having single constructor which create multiple banks calling further constructors automatically. 
 
 
-***************************************************************************************
+---------------------------------
 Details regarding structures used
-***************************************************************************************
+---------------------------------
 structure arg_struct used for sending data into the threads cb which cache we want to access, filename from which the address will be fetched filename,thread_id and thread_num explicitly 
 
 
 
-***************************************************************************************
+-----------------------------
 Details regarding make_thread
-*************************************************************************************** 
+-----------------------------
 This is the function which will be called into the thread and multiple copies will be created. All the detauils of the thread extracted insode this corresponding file reading will be done and according the address and operation the details passed to map function. 
 
