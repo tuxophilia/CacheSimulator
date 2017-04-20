@@ -1,0 +1,6 @@
+
+MISS: Write Data is not in the cache
+Address: 7245e825	Bank Id: 3	Entering Value in set: 16
+
+HIT: Write Data is in the cache
+Address: 7245e825 Accessing Block data in set: 16	Bank Id: 3

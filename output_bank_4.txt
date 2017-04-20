@@ -1,0 +1,26 @@
+
+MISS: Write Data is not in the cache
+Address: 7245e825	Bank Id: 4	Entering Value in set: 16
+
+MISS: Read Data is not in the cache
+Reading request but found Read Miss Data will be loaded and writen to following addresses:
+Address: a245e826Loading Block data to set: 16	Bank Id: 4
+
+MISS: Write Data is not in the cache
+Address: 6245e825	Bank Id: 4	Entering Value in set: 16
+
+MISS: Read Data is not in the cache
+Reading request but found Read Miss Data will be loaded and writen to following addresses:
+Address: 8245e826Loading Block data to set: 16	Bank Id: 4
+
+MISS: Write Data is not in the cache
+Address: 9245e825	Bank Id: 4	Entering Value in set: 16
+
+HIT: Read Data is in the cache
+Address: a245e826 Reading Block data from set: 16	Bank Id: 4
+
+MISS: Write Data is not in the cache
+Address: a23847ef	Bank Id: 4	Entering Value in set: 15
+
+HIT: Write Data is in the cache
+Address: a23847ef Accessing Block data in set: 15	Bank Id: 4
